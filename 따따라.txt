@@ -1,0 +1,56 @@
+환경변수 경로
+============
+path
+whereis
+alias 별명
+unalias -a(전체삭제) 별명삭제
+
+사용법
+============사용법
+man
+info
+apropos
+whatis
+
+사용자 생성 
+============
+useradd,adduser 사용자계정생성
+passwd 패스워드 설정
+
+su(switch user) 사용자 전환
+usermod 사용자정보수정
+userdel 사용자삭제 
+
+groupadd 그룹추가
+groupdel 그룹삭제
+groupmod 그룹수정
+
+users 로그인한 사용자 정보
+who 사용자 정보
+id 접속한 사용자 정보
+whoami 접속한 사용자 정보
+
+디렉터리 및 파일 관련 명령어
+
+cd(change directory) 디렉터리 이동
+pwd 현재 작업 디렉토리명표시
+
+mkdir 파일 만들기
+rmdir 파일 삭제(비어있는 파일만 가능)
+rm 파일삭제(비어있지 않은 파일도 가능)
+ls 디텍터리의 파일 목록(정보) 표시
+cp  (cp <옵션> [소스] [타겟])  파일복사
+mv 파일,디렉터리명 변경
+touch 비어있는 파일 생성 혹은 파일의 시간 변경
+file 파일 종류와 속성값
+find 지정된 조건에 따라 파일을 검색하는 명령어
+
+cat 파일 내용을 출력
+head 파일의 앞 부분만 출력
+tail 파일의 뒷 부분만 출력
+
+
+more 화편단위로 파일 내용을 출력
+less 화편단위로 파일 내용을 출력
+
+wc  파일의 라인 수,단어 수, 알파벳 수
